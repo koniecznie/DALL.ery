@@ -1,0 +1,157 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		specific_image_
+     *	@date 		Wednesday 19th of April 2023 10:21:23 AM
+     *	@title 		Page 1
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+    <ScrollView android:id="@+id/specific_image_"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/_bg__specific_image_"
+                android:layout_width="412dp"
+                android:layout_height="892dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/_bg__specific_image__shape"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/screen"
+                android:layout_width="386dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/screen_shape"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/rectangle_2_1"
+                android:layout_width="163dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="124dp"
+                android:layout_marginTop="792dp"
+                android:background="@drawable/rectangle_2_1_shape"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/see_more"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="172dp"
+                android:layout_marginTop="804dp"
+                android:gravity="center"
+                android:text="@string/see_more_string"
+                android:textColor="@color/see_more_color"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/nice_2"
+                android:layout_width="412dp"
+                android:layout_height="609dp"
+                android:contentDescription="nice_2"
+                android:src="@drawable/nice_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/c__1919___post_impressionism___idk_xd"
+                android:layout_width="275dp"
+                android:layout_height="23dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="68dp"
+                android:layout_marginTop="628dp"
+                android:gravity="center"
+                android:text="@string/c__1919___post_impressionism___idk_xd_string"
+                android:textColor="@color/see_more_color"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/the_three_pines"
+                android:layout_width="380dp"
+                android:layout_height="81dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="688dp"
+                android:gravity="center"
+                android:text="@string/the_three_pines_string"
+                android:textColor="@color/the_three_pines_color"
+                android:textSize="28sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/ellipse_3"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_marginStart="372dp"
+                android:layout_marginTop="21dp"
+                android:background="@drawable/ellipse_3_shape"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/line_2"
+                android:layout_width="12.73dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="382dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/line_2_shape"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/line_3"
+                android:layout_width="27dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="372dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/line_3_shape"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="20dp" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:constraint_referenced_ids="see_more" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

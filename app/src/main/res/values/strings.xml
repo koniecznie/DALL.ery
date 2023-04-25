@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- specific_image_ strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="see_more_string">See More</string>
+	<string name="c__1919___post_impressionism___idk_xd_string">c. 1919  |  Post Impressionism  |  idk xd</string>
+	<string name="the_three_pines_string">The Three Pines</string>
+</resources>
